@@ -34,7 +34,7 @@ spec:
   steps:
   # Renderiza la plantilla ubicada en ./template con los valores proporcionados
    - id: fetch-base
-     name: Fetch Base
+     name: Rendering Template
      action: fetch:template
      input:
        url: ./template
