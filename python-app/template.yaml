@@ -29,7 +29,6 @@ spec:
           enum:
             - dev
             - prod
-            - staging
 
   steps:
   # Renderiza la plantilla ubicada en ./template con los valores proporcionados
