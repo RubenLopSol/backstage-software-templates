@@ -2,8 +2,6 @@ name: ${{values.app_name}}-cicd
 
 on:
   push:
-    paths:
-      - 'python-app/template/src/**'
     branches:
       - main
 
