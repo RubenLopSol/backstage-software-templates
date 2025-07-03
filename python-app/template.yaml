@@ -39,6 +39,7 @@ spec:
         url: ./template
         values:
           app_name: ${{parameters.component_id}}
+          app_name_lower: ${{ parameters.component_id | lower }}
           app_env: ${{parameters.environment}}
   # Crea un nuevo repositorio en GitHub y sube los archivos generados
     - id: publish
